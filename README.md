@@ -399,3 +399,21 @@ The simulator orchestrates conversations between three specialized AI agents:
 3. Maintains separate conversation histories for each agent's perspective
 4. Terminates when user signals completion or max turns reached
 5. Outputs JSON results with conversation traces
+
+---
+
+## Citation
+
+If you use MADS or MADS-Bench in your research, please cite:
+
+```bibtex
+@misc{chakraborty2026madsmultiagentdialogsimulation,
+      title={MADS: Multi-Agent Dialog Simulation for Robust Conversational Agents}, 
+      author={Arkajyoti Chakraborty and Adam Zernik and Ishika Kulkarni and Mudit Arora and Hugo Lin and Justin Chiu and Alessandro Di Bari and Neha Gupta and Andreas Stolcke},
+      year={2026},
+      eprint={2610.12757},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2610.12757}, 
+}
+```
