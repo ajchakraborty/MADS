@@ -1,0 +1,922 @@
+{
+  "personas": [
+    {
+      "id": "persona_001",
+      "name": "Elena Harding",
+      "age": 48,
+      "hometown": "Darwin, Northern Territory",
+      "occupation": "Community relations officer",
+      "bio": "Elena Harding coordinates community outreach for the Northern Territory government, helping residents navigate services and making sure local voices reach national decision makers. She keeps a disciplined calendar, attends neighborhood events most evenings, and prides herself on giving people clear next steps.",
+      "use_cases": [
+        "restaurant_booking.dine_in_dinner",
+        "calendar.schedule_cross_functional_team_meeting",
+        "calendar.reschedule_meeting"
+      ],
+      "writing_style": "Australian casual, some lowercase starts, fragments okay, action-oriented",
+      "sample_messages": [
+        "need a table downtown thursday around 7 for me + two visiting reps",
+        "Second option works, go with that one",
+        "meeting room booking for next week sorted?"
+      ],
+      "email": "elena.harding@nt.gov.au",
+      "phone": "+61-8-5550-2147"
+    },
+    {
+      "id": "persona_002",
+      "name": "Maya Chen",
+      "age": 34,
+      "hometown": "Eugene, OR",
+      "occupation": "Nutrition researcher",
+      "bio": "Maya Chen studies how everyday habits like water intake influence children's eating choices. She splits her time between lab work, preschool visits, and writing approachable summaries for parents and educators. Off the clock she hosts weekend brunches and keeps a shared calendar with her research collaborators.",
+      "use_cases": [
+        "calendar.schedule_cross_functional_team_meeting",
+        "calendar.schedule_recurring_one_on_one_meeting",
+        "restaurant_booking.dine_in_brunch",
+        "online_shopping.order_gift"
+      ],
+      "sample_messages": [
+        "hey there! brunch for 4 on sunday? someplace quiet so we can catch up",
+        "can we bump my sync w/ sara to wed? preschool visits ran long",
+        "thanks! sending this over to the project crew now"
+      ],
+      "writing_style": "casual and friendly, lowercase starts, abbreviations like 'w/' and 'ppl', warm conversational tone",
+      "email": "maya.chen@uoregon.edu",
+      "phone": "+1-541-555-0186"
+    },
+    {
+      "id": "persona_003",
+      "name": "Nikola Petrovic",
+      "age": 41,
+      "hometown": "Belgrade, Serbia",
+      "occupation": "Cultural heritage researcher",
+      "bio": "Nikola Petrovic documents historic churches and cultural landmarks, splitting time between archive work and photo expeditions. He plans travel carefully, coordinates with curators abroad, and loves sharing the stories behind architecture with friends back home.",
+      "use_cases": [
+        "travel.book_flight",
+        "travel.book_hotel",
+        "restaurant_booking.plan_special_occasion"
+      ],
+      "writing_style": "Thoughtful and polite, proper capitalization, complete sentences",
+      "sample_messages": [
+        "Do you know if the monastery in Ravenna allows interior photography?",
+        "The archive extended my access through the weekend - can we push my return flight to Monday?",
+        "That hotel location is perfect, right near the basilica"
+      ],
+      "email": "nikola.petrovic@bg.ac.rs",
+      "phone": "+381-11-555-3245"
+    },
+    {
+      "id": "persona_004",
+      "name": "Sofía Reyes",
+      "age": 45,
+      "hometown": "Madrid, Spain",
+      "occupation": "History professor",
+      "bio": "Sofía Reyes teaches modern history and writes essays about what today's events reveal about society. She moderates panel discussions, travels for lectures, and keeps a meticulous planner so she can balance classes, writing deadlines, and family life.",
+      "use_cases": [
+        "calendar.schedule_cross_functional_team_meeting",
+        "calendar.reschedule_meeting",
+        "travel.change_flight"
+      ],
+      "writing_style": "Professional clarity, proper capitalization and punctuation, structured",
+      "sample_messages": [
+        "I need dinner Friday but not before 8:30, my lecture runs until 8.",
+        "Have all three panelists confirmed for the roundtable?",
+        "The Madrid flight is delayed two hours. Should I rebook or wait it out?"
+      ],
+      "email": "sofia.reyes@ucm.es",
+      "phone": "+34-91-555-2840"
+    },
+    {
+      "id": "persona_005",
+      "name": "Jordan Miles",
+      "age": 29,
+      "hometown": "Minneapolis, MN",
+      "occupation": "Elementary school teacher",
+      "bio": "Jordan Miles teaches fourth grade and loves turning lessons into games that keep students moving and laughing. Weekends are for brunch with friends, planning field trips, and catching up on travel deals during school breaks.",
+      "use_cases": [
+        "restaurant_booking.dine_in_brunch",
+        "calendar.schedule_outdoor_event",
+        "online_shopping.return_order",
+        "travel.check_flight_status"
+      ],
+      "writing_style": "Warm energy, mix of caps/lowercase, exclamation marks, casual",
+      "sample_messages": [
+        "weather looks good for saturday! let's lock in that zoo field trip",
+        "Does the park allow groups of 25 kids or do we need a permit?",
+        "perfect!! forwarding this to the other teachers now"
+      ],
+      "email": "jordan.miles@mpls.k12.mn.us",
+      "phone": "+1-612-555-0476"
+    },
+    {
+      "id": "persona_006",
+      "name": "Lars Bergström",
+      "age": 52,
+      "hometown": "Madison, WI",
+      "occupation": "Urban agriculture coordinator",
+      "bio": "Lars Bergström manages a network of community allotment gardens across south-central Wisconsin, helping residents grow food and build connections. He writes a blog about the history of urban farming movements in the Midwest and consults with city planners on green space design. Weekends often find him hosting workshops on composting and heirloom seed preservation.",
+      "use_cases": [
+        "calendar.schedule_community_workshop",
+        "online_shopping.order_gardening_supplies",
+        "calendar.schedule_cross_functional_team_meeting",
+        "restaurant_booking.plan_group_dinner"
+      ],
+      "writing_style": "Friendly and earnest, complete sentences, warm Midwestern politeness without being stuffy",
+      "sample_messages": [
+        "Can you schedule a composting workshop for the third Saturday of next month?",
+        "Need to order bulk heirloom seeds, can you find suppliers with good reviews?",
+        "Please book a table for 6 on Friday evening to meet with the city planning committee"
+      ],
+      "email": "lars.bergstrom@gmail.com",
+      "phone": "(608) 555-0823"
+    },
+    {
+      "id": "persona_007",
+      "name": "Elizabeth Warner",
+      "age": 43,
+      "hometown": "Providence, RI",
+      "occupation": "British history professor",
+      "bio": "Elizabeth Warner teaches Tudor and Stuart history at Brown University. She researches succession crises, political intrigue, and contested identities in early modern England. She publishes academic articles, presents at conferences, and leads undergraduate seminars where students debate historical what-ifs.",
+      "use_cases": [],
+      "writing_style": "Scholarly efficiency, precise language, proper punctuation, slightly formal",
+      "sample_messages": [
+        "Research trip to UK archives in May - need flights to London and accommodations near the British Library",
+        "Seminar tomorrow on Perkin Warbeck - printing primary source packets for 15 students",
+        "Article revisions due next Friday. Can you track down that reference to the 1497 Cornish rebellion?"
+      ],
+      "email": "elizabeth.warren@brown.edu",
+      "phone": "(401) 555-3924"
+    },
+    {
+      "id": "persona_008",
+      "name": "Dr. Amara Okafor",
+      "age": 43,
+      "hometown": "Durham, NC",
+      "occupation": "Comparative biologist",
+      "bio": "Amara Okafor studies aging patterns across primate species, comparing cellular and behavioral changes to better understand human longevity. Her lab at Duke collaborates with zoos and field sites worldwide to collect longitudinal health data. When she's not analyzing datasets, she mentors graduate students and writes grant proposals for multi-year studies.",
+      "use_cases": [],
+      "writing_style": "Scientific clarity, organized, collaborative tone, professional but approachable",
+      "sample_messages": [
+        "Need flights to San Diego departing May 10 for the primate research conference",
+        "Schedule weekly lab meetings for the semester, Tuesdays at 2pm work best",
+        "Can you book dinner for my collaborators on Thursday? Somewhere near campus for 5 people"
+      ],
+      "email": "amara.okafor@duke.edu",
+      "phone": "(919) 555-0341"
+    },
+    {
+      "id": "persona_009",
+      "name": "Raj Patel",
+      "age": 36,
+      "hometown": "Austin, TX",
+      "occupation": "Full-stack developer",
+      "bio": "Raj Patel builds web applications for education startups and writes tutorials on modern JavaScript frameworks. He spends his mornings coding, afternoons debugging with distributed teams, and evenings exploring new developer tools. He's active in online tech communities and regularly mentors junior developers through video calls.",
+      "use_cases": [],
+      "writing_style": "Tech-casual, efficient, lowercase comfortable, occasional tech terminology",
+      "sample_messages": [
+        "can you find a good deal on a 32-inch monitor with usb-c? need it by next week",
+        "please schedule a product demo with the client for next wednesday afternoon",
+        "set up daily standups at 10am starting monday, recurring for the next sprint"
+      ],
+      "email": "raj.patel@gmail.com",
+      "phone": "(512) 555-7156"
+    },
+    {
+      "id": "persona_010",
+      "name": "Carmen Silva",
+      "age": 39,
+      "hometown": "Denver, CO",
+      "occupation": "Environmental policy analyst",
+      "bio": "Carmen Silva researches carbon emissions from natural sources and writes policy briefs for government agencies and NGOs. She tracks methane from wetlands, wildfire trends, and volcanic activity to help policymakers understand the full picture of atmospheric change. She also consults with companies developing carbon offset programs in the Rocky Mountain region.",
+      "use_cases": [],
+      "writing_style": "Clear policy-world communicator, professional, detail-oriented, proper grammar",
+      "sample_messages": [
+        "Need a flight to DC for the EPA briefing, dates are Sept 15-17",
+        "Can you schedule a call with the NGO partners for next week? Three time zones to coordinate",
+        "Looking for eco-friendly office supplies, can you find a vendor with fast shipping?"
+      ],
+      "email": "carmen.silva@rockymountainpolicy.org",
+      "phone": "(303) 555-8432"
+    },
+    {
+      "id": "persona_011",
+      "name": "David Kwan",
+      "age": 47,
+      "hometown": "San Francisco, CA",
+      "occupation": "Venture capital partner",
+      "bio": "David Kwan invests in cybersecurity and telecommunications startups across the US and Canada. He evaluates pitch decks, conducts due diligence on technical teams, and sits on three portfolio company boards. His days are packed with founder meetings, investor calls, and industry conference panels on 5G infrastructure security.",
+      "use_cases": [],
+      "sample_messages": [
+        "schedule pitch meetings with the three shortlisted startups for next week, 1 hour each",
+        "book me on a flight to new york next monday, returning friday evening",
+        "need a private room at a nice restaurant for investor dinner on tuesday, party of 8"
+      ],
+      "email": "david.kwan@skybridge.vc",
+      "phone": "(415) 555-2901"
+    },
+    {
+      "id": "persona_012",
+      "name": "Dr. Yuki Tanaka",
+      "age": 55,
+      "hometown": "Seattle, WA",
+      "occupation": "Botanical garden director",
+      "bio": "Yuki Tanaka oversees living plant collections and leads research on endangered flowering species native to the Pacific Northwest. She coordinates with universities and conservation groups to document taxonomic relationships and maintain seed banks. Her mornings start with greenhouse rounds, and afternoons are for cataloging specimens and training horticulture students.",
+      "use_cases": [],
+      "sample_messages": [
+        "i need travel arrangements to montana for specimen collection, two weeks in april",
+        "please set up monthly video calls with the portland botanical team",
+        "can you order microscope slides and preservation supplies? i'll send the list"
+      ],
+      "email": "yuki.tanaka@seattlebg.org",
+      "phone": "(206) 555-4201"
+    },
+    {
+      "id": "persona_013",
+      "name": "Robert Finch",
+      "age": 61,
+      "hometown": "Washington, DC",
+      "occupation": "Senior fellow, foreign policy think tank",
+      "bio": "Robert Finch analyzes shifts in global power and writes on multilateral institutions for policy journals and major newspapers. He spent twenty years at the State Department before joining the Atlantic Council, where he now briefs congressional staff and testifies at hearings. His specialty is how economic crises reshape alliances and international cooperation.",
+      "use_cases": [],
+      "sample_messages": [
+        "can you schedule briefings with the senate foreign relations committee staff for next month?",
+        "need to book travel to the munich security conference in february",
+        "please move my lunch with the ambassador to thursday and find a restaurant near dupont circle"
+      ],
+      "email": "robert.finch@atlanticpolicy.org",
+      "phone": "(202) 555-0784"
+    },
+    {
+      "id": "persona_014",
+      "name": "Prof. Aisha Nkrumah",
+      "age": 50,
+      "hometown": "New Haven, CT",
+      "occupation": "International law professor",
+      "bio": "Aisha Nkrumah teaches global governance at Yale Law School and publishes widely on how expert networks shape international policy. She advises UN agencies on legal frameworks and recently finished a book on the politics of knowledge in climate negotiations. Her calendar balances lectures, doctoral supervision, and speaking engagements across the US and abroad.",
+      "use_cases": [],
+      "sample_messages": [
+        "please schedule guest lectures at harvard and columbia for next month",
+        "i need flights to geneva for the un conference, three-day visit in october",
+        "can you book a restaurant for dinner with my phd candidates on friday? somewhere quiet for 6"
+      ],
+      "email": "aisha.nkrumah@yale.edu",
+      "phone": "(203) 555-6301"
+    },
+    {
+      "id": "persona_015",
+      "name": "Marcus Thompson",
+      "age": 44,
+      "hometown": "Phoenix, AZ",
+      "occupation": "IT project manager",
+      "bio": "Marcus Thompson manages software rollouts for a healthcare company and recently decided to install solar panels at home after calculating his family's energy usage. He spends evenings comparing quotes from installers, reading reviews on panel efficiency, and joining online forums about battery storage. He wants to maximize savings while staying within his budget.",
+      "use_cases": [],
+      "sample_messages": [
+        "can you schedule consultations with three solar installers for next week?",
+        "help me compare quotes and reviews for solar panel systems in the phoenix area",
+        "i need to book a home energy audit before the installation, any availability this month?"
+      ],
+      "email": "marcus.thompson@sunvalleyhealth.com",
+      "phone": "(602) 555-1947"
+    },
+    {
+      "id": "persona_016",
+      "name": "Priya Mehta",
+      "age": 28,
+      "hometown": "Chicago, IL",
+      "occupation": "Architecture graduate student",
+      "bio": "Priya Mehta is completing her master's in architectural history at the University of Illinois Chicago, focusing her thesis on historic preservation of religious buildings. She works part-time at a local museum and spends her weekends photographing old buildings around the city. She's trying to balance coursework, her thesis deadline, and applications for PhD programs.",
+      "use_cases": [],
+      "sample_messages": [
+        "ugh i'm drowning in thesis revisions. can u find me a decent coffee shop w good wifi near campus that's open late?",
+        "my advisor wants to meet before spring break - any chance you can juggle her calendar and mine? i'm free tues/thurs afternoons",
+        "need budget hotel recs near the national archives, like under $120/night if that exists lol"
+      ],
+      "email": "priya.mehta@uic.edu",
+      "phone": "(312) 555-0891"
+    },
+    {
+      "id": "persona_017",
+      "name": "Sam Kozlowski",
+      "age": 24,
+      "hometown": "Boulder, CO",
+      "occupation": "Geology research assistant",
+      "bio": "Sam Kozlowski just finished his geology degree at CU Boulder and now works as a research assistant studying Rocky Mountain geological formations. He helps maintain lab equipment, processes rock samples, and assists graduate students with fieldwork. His evenings are spent rock climbing and planning his next backpacking trip.",
+      "use_cases": [],
+      "sample_messages": [
+        "yo need sample bags + field notebooks asap, fieldwork starts monday",
+        "van rental for utah trip? leaving wed morning, back fri night",
+        "trying to snag a campsite near moab this weekend, any last-minute cancellations?"
+      ],
+      "writing_style": "very casual, often starts with 'yo', minimal punctuation, heavy abbreviations, terse and direct",
+      "email": "sam.kozlowski@colorado.edu",
+      "phone": "(303) 555-2104"
+    },
+    {
+      "id": "persona_018",
+      "name": "Tyler Chen",
+      "age": 19,
+      "hometown": "Pasadena, CA",
+      "occupation": "Physics major",
+      "bio": "Tyler Chen is a sophomore at Caltech studying physics and struggling through his mechanics coursework. He attends study groups most evenings, watches YouTube lectures to supplement his classes, and goes to office hours every week. When he's not studying, he plays intramural soccer and tries to maintain some kind of social life.",
+      "use_cases": [],
+      "sample_messages": [
+        "help!! midterm in 5 days and i don't understand anything. find me a physics tutor who can meet this week?",
+        "hey can u book those study rooms in millikan? need wed + fri nights, like 7-10pm",
+        "gotta get spring textbooks but i'm broke... find the cheapest used/rental options?"
+      ],
+      "email": "tyler.chen@caltech.edu",
+      "phone": "(626) 555-7392"
+    },
+    {
+      "id": "persona_019",
+      "name": "Morgan Ellis",
+      "age": 33,
+      "hometown": "Missoula, MT",
+      "occupation": "Park ranger",
+      "bio": "Morgan Ellis leads interpretive hikes and educational programs at a national park in Montana. She teaches visitors about local wildlife, geological history, and Lewis and Clark's expedition through the region. During the off-season, she develops curriculum materials and presents at schools around the state.",
+      "use_cases": [],
+      "sample_messages": [
+        "hi! looking for a venue that can fit 50 kids for junior ranger kickoff in april - somewhere with outdoor access would be perfect",
+        "we're running low on field guides at the visitor center. can you reorder the wildflower and bird ID books? same suppliers as last year",
+        "need to get seasonal staff training on the calendar - first week of may work for everyone? two full days"
+      ],
+      "email": "morgan.ellis@gmail.com",
+      "phone": "(406) 555-3847"
+    },
+    {
+      "id": "persona_020",
+      "name": "Alex Rodriguez",
+      "age": 26,
+      "hometown": "Fort Worth, TX",
+      "occupation": "Aircraft mechanic",
+      "bio": "Alex Rodriguez repairs and maintains small aircraft at a regional airport near Dallas-Fort Worth. He earned his A&P license two years ago and works on everything from single-engine Cessnas to corporate jets. He's saving up to eventually get his pilot's license and loves attending airshows on weekends.",
+      "use_cases": [],
+      "sample_messages": [
+        "oshkosh airshow in july - can you grab tickets? camping pass too if they're still available",
+        "ordering parts for n5234x: aileron hinge, part# 0523071-1. and fuel sender, part# c163003-0101",
+        "got that avionics training course next month. need hotel near dfw, walking distance if possible. 3 nights"
+      ],
+      "email": "alex.rodriguez@lonestar-aviation.com",
+      "phone": "(817) 555-4192"
+    },
+    {
+      "id": "persona_021",
+      "name": "Dr. Lisa Park",
+      "age": 41,
+      "hometown": "Atlanta, GA",
+      "occupation": "Pediatrician",
+      "bio": "Lisa Park is a pediatrician at a children's hospital in Atlanta, treating kids with chronic illnesses including sickle cell disease and diabetes. She sees patients four days a week, attends case conferences, and coordinates with specialists to manage complex cases. She's also involved in community health outreach programs.",
+      "use_cases": [],
+      "sample_messages": [
+        "Need to coordinate with hematology on the Jackson case. Can you set up a call with Dr. Patel sometime next week?",
+        "License renewal coming up - please find CME courses in pediatric pain management, preferably online/asynchronous",
+        "Fundraiser committee dinner next Thursday at 7. Need reservation for 10, somewhere quiet enough to actually talk"
+      ],
+      "email": "lisa.park@peachtreechildrens.org",
+      "phone": "(404) 555-6283"
+    },
+    {
+      "id": "persona_022",
+      "name": "Jamie Sullivan",
+      "age": 29,
+      "hometown": "Portland, OR",
+      "occupation": "Environmental organizer",
+      "bio": "Jamie Sullivan coordinates campaigns for a climate advocacy nonprofit in Portland. She organizes rallies, writes social media content, and meets with local officials to push for clean energy policies. Her work involves a lot of coalition building with other environmental groups and managing volunteers.",
+      "use_cases": [],
+      "sample_messages": [
+        "we're doing a town hall on the climate bill - can you lock down the community center for late march? need space for at least 100 ppl",
+        "rally supplies: 10 banners (biodegradable materials ONLY), 500 flyers recycled paper, + sound system rental",
+        "councilmembers warren, liu, and Rodriguez all agreed to meet with us. can you wrangle their schedules? this is huge"
+      ],
+      "email": "jamie.sullivan@pnwclimateaction.org",
+      "phone": "(503) 555-7421"
+    },
+    {
+      "id": "persona_023",
+      "name": "Chris Bakker",
+      "age": 25,
+      "hometown": "Denver, CO",
+      "occupation": "Outdoor guide",
+      "bio": "Chris Bakker leads hiking, climbing, and skiing trips in the Colorado Rockies. He works for an adventure tourism company during peak seasons and picks up ski instruction gigs in the winter. He's always planning his next trip and dreams of eventually guiding internationally.",
+      "use_cases": [],
+      "sample_messages": [
+        "dude jackson hole in june!! find me the cheapest flights, i'll take red-eyes, whatever",
+        "permit request: 8 ppl, 4 nights in the maroon bells. june 15-19. crossing fingers it's not full",
+        "my harness is totally shot. ordering: black diamond momentum, size M + 5 locking biners"
+      ],
+      "email": "chris.bakker@rockytrailguides.com",
+      "phone": "(720) 555-8934"
+    },
+    {
+      "id": "persona_024",
+      "name": "Dr. Rachel Kim",
+      "age": 37,
+      "hometown": "Baltimore, MD",
+      "occupation": "Epidemiologist",
+      "bio": "Rachel Kim works for the Maryland Department of Health tracking infectious disease outbreaks and analyzing public health data. She monitors flu trends, investigates foodborne illness clusters, and writes reports for health officials. Her days involve lots of data analysis, stakeholder calls, and the occasional field investigation.",
+      "use_cases": [],
+      "sample_messages": [
+        "Setting up county health director briefing for next Tuesday 2pm. Need confirmation from all 5 directors + send them the data packet",
+        "CDC EIS conference April 12-15. Book flight + hotel, need to arrive evening of the 11th",
+        "Grant approved! Ordering 4 laptops for the epi team - specs in the shared doc. Processing timeline?"
+      ],
+      "email": "rachel.kim@oldlinestatehealth.gov",
+      "phone": "(410) 555-3721"
+    },
+    {
+      "id": "persona_025",
+      "name": "Tasha Williams",
+      "age": 23,
+      "hometown": "Oakland, CA",
+      "occupation": "Social work graduate student",
+      "bio": "Tasha Williams is getting her MSW at UC Berkeley while interning at a community center in Oakland. She facilitates support groups, helps clients access resources, and is writing her thesis on housing inequality. She juggles her internship hours, classes, and a part-time job at a coffee shop.",
+      "use_cases": [],
+      "sample_messages": [
+        "hunting for trauma-informed care workshops in the bay - something under $100 if possible? student budget is TIGHT",
+        "thesis committee meetings before march ends or i'm screwed. can you check when prof martinez + dr. wong are both free?",
+        "desperate for quiet study space this saturday, like 10-4. library is always packed. any ideas?"
+      ],
+      "email": "tasha.williams@berkeley.edu",
+      "phone": "(510) 555-2947"
+    },
+    {
+      "id": "persona_026",
+      "name": "Greg Foster",
+      "age": 46,
+      "hometown": "Ann Arbor, MI",
+      "occupation": "History teacher",
+      "bio": "Greg Foster teaches AP US History and World History at a public high school in Ann Arbor. He assigns documentaries alongside textbooks, leads debates about historical causes and effects, and runs the school's history club. Summers he spends reading new history books and updating his curriculum to keep students engaged.",
+      "use_cases": [],
+      "sample_messages": [
+        "Looking for documentary recommendations on the industrial revolution - something engaging enough for high schoolers",
+        "Can you find primary source collections on westward expansion? Planning next semester's unit",
+        "Need to book the auditorium for History Bowl practice sessions, Tuesdays and Thursdays 3-5pm starting in October"
+      ],
+      "email": "greg.foster@a2schools.org",
+      "phone": "(734) 555-1847"
+    },
+    {
+      "id": "persona_027",
+      "name": "Keisha Brown",
+      "age": 38,
+      "hometown": "New Orleans, LA",
+      "occupation": "Water resource engineer",
+      "bio": "Keisha Brown works for the Army Corps of Engineers managing flood control systems along the Mississippi River. She monitors water levels, maintains levee infrastructure, and coordinates emergency response during hurricane season. Her work got a lot more intense after experiencing Katrina firsthand as a teenager.",
+      "use_cases": [],
+      "sample_messages": [
+        "storm system tracking toward the gulf - need to schedule emergency prep meeting with the team for tomorrow AM",
+        "ordering sensor equipment for the monitoring stations. requisition #7821. timeline?",
+        "Conference call with FEMA reps Wednesday at 10. send them last quarter's flood data before then"
+      ],
+      "email": "keisha.brown@usace.army.mil",
+      "phone": "(504) 555-2931"
+    },
+    {
+      "id": "persona_028",
+      "name": "Nathan Goldberg",
+      "age": 22,
+      "hometown": "Boston, MA",
+      "occupation": "History major",
+      "bio": "Nathan Goldberg is a senior at Boston University majoring in European history with a focus on 20th century Germany. He's writing his senior thesis on Weimar political instability and works part-time at the campus library. He's considering grad school but also applying to teach positions abroad.",
+      "use_cases": [],
+      "sample_messages": [
+        "need digital access to weimar newspapers 1929-1933, can the library get that??",
+        "prof jameson office hours - can u check his schedule for this week? thesis draft due soon",
+        "looking at teach abroad programs in germany, any recs for good programs?"
+      ],
+      "email": "nathan.goldberg@bu.edu",
+      "phone": "(617) 555-4102"
+    },
+    {
+      "id": "persona_029",
+      "name": "Dr. Farhan Ahmad",
+      "age": 53,
+      "hometown": "College Park, MD",
+      "occupation": "Political science professor",
+      "bio": "Farhan Ahmad teaches comparative politics and South Asian studies at the University of Maryland. He studies regional conflicts, ethnic politics, and state formation in South Asia. He publishes academic articles, advises graduate students, and occasionally writes op-eds for major newspapers about current events in the region.",
+      "use_cases": [],
+      "sample_messages": [
+        "Submitting article to Journal of Asian Studies - can you check submission guidelines and format the bibliography?",
+        "Guest lecture at Georgetown next month. Need hotel near campus, arriving evening before.",
+        "PhD student committee meetings next week: schedule with candidates and send them the evaluation forms"
+      ],
+      "email": "farhan.ahmad@umd.edu",
+      "phone": "(301) 555-6789"
+    },
+    {
+      "id": "persona_030",
+      "name": "Derek Walsh",
+      "age": 31,
+      "hometown": "Austin, TX",
+      "occupation": "Cybersecurity consultant",
+      "bio": "Derek Walsh runs a small cybersecurity consulting firm helping businesses protect their data and comply with privacy regulations. He's passionate about digital rights, uses encrypted everything, and volunteers with the EFF. He spends way too much time on privacy forums and worries his friends think he's paranoid.",
+      "use_cases": [],
+      "sample_messages": [
+        "client needs pen testing next week. can we move the anderson meeting to make room?",
+        "registering for defcon in august - get the tickets before they sell out!!!",
+        "looking for secure file transfer service, something open source with zero-knowledge encryption"
+      ],
+      "email": "derek.walsh@cipherworks.io",
+      "phone": "(512) 555-8374"
+    },
+    {
+      "id": "persona_031",
+      "name": "Patricia Nguyen",
+      "age": 49,
+      "hometown": "Houston, TX",
+      "occupation": "Energy company VP",
+      "bio": "Patricia Nguyen leads sustainability initiatives at a major energy company in Houston, working on carbon capture projects and renewable energy investments. She manages a team of engineers and policy specialists, presents to the board quarterly, and travels frequently to visit project sites and meet with government officials.",
+      "use_cases": [],
+      "sample_messages": [
+        "Board presentation on Q3 CCS progress - need updated cost projections and timeline analysis by Friday",
+        "Schedule site visit to the Wyoming facility for next month. Bringing 3 team members + the CFO",
+        "DOE meeting got moved to Thursday. Reschedule the 2pm so I can prep with legal beforehand"
+      ],
+      "email": "patricia.nguyen@horizonenergy.com",
+      "phone": "(713) 555-2947"
+    },
+    {
+      "id": "persona_032",
+      "name": "Jamal Richardson",
+      "age": 35,
+      "hometown": "Silver Spring, MD",
+      "occupation": "Data journalist",
+      "bio": "Jamal Richardson covers politics and demographics for a national news outlet, specializing in census data, voting trends, and redistricting. He builds interactive graphics, writes analysis pieces, and appears on cable news during election cycles. He's known for breaking down complex data into accessible stories.",
+      "use_cases": [],
+      "sample_messages": [
+        "census bureau dropping new migration data thursday - can you set up interviews with 2-3 demographers?",
+        "need hotel for the redistricting conference in phoenix, feb 15-17",
+        "working on redistricting interactive - can you pull the shapefiles from census.gov? 2020 districts"
+      ],
+      "email": "jamal.richardson@gmail.com",
+      "phone": "(240) 555-3184"
+    },
+    {
+      "id": "persona_033",
+      "name": "Linda Carlson",
+      "age": 58,
+      "hometown": "Duluth, MN",
+      "occupation": "Local historian",
+      "bio": "Linda Carlson works at the Lake Superior Maritime Museum documenting the region's logging and shipping history. She gives tours, curates exhibits, manages the archives, and writes for the local historical society newsletter. She's spent decades collecting oral histories from families whose grandparents worked in the lumber camps.",
+      "use_cases": [],
+      "sample_messages": [
+        "Found some logging camp photos at an estate sale - need to get them professionally scanned and archived",
+        "Scheduling oral history interview with the Peterson family, they have letters from 1890s lumber camp",
+        "Can you order archival storage supplies? The usual: acid-free boxes, tissue paper, cotton gloves"
+      ],
+      "email": "linda.carlson@lakesuperiormaritime.org",
+      "phone": "(218) 555-7261"
+    },
+    {
+      "id": "persona_034",
+      "name": "Marcus Lee",
+      "age": 42,
+      "hometown": "Chicago, IL",
+      "occupation": "Trial consultant",
+      "bio": "Marcus Lee helps lawyers prepare for trials by conducting mock juries, analyzing jury selection, and advising on courtroom strategy. He has a psychology background and finds the group dynamics of deliberation fascinating. He works on 2-3 cases at a time and travels to different courthouses around the Midwest.",
+      "use_cases": [],
+      "sample_messages": [
+        "Mock jury session for the Patterson case scheduled for next Tuesday. Need 12 participants recruited by Friday.",
+        "Travel to Milwaukee next week for jury selection - need rental car and hotel near the courthouse, 3 nights",
+        "Reviewing voir dire transcripts tonight. Can you pull the juror questionnaires and send them over?"
+      ],
+      "email": "marcus.lee@midwesttrialconsulting.com",
+      "phone": "(312) 555-9274"
+    },
+    {
+      "id": "persona_035",
+      "name": "Terrence \"TJ\" Jackson",
+      "age": 27,
+      "hometown": "Brooklyn, NY",
+      "occupation": "Music producer",
+      "bio": "TJ Jackson produces hip-hop and R&B tracks in his Brooklyn studio, working with up-and-coming artists in the New York scene. He also DJs at local venues on weekends and teaches beat-making workshops for teenagers. His music often touches on social justice themes and community issues.",
+      "use_cases": [],
+      "sample_messages": [
+        "studio fully booked next week!! can we fit in the session with maya or push to the week after?",
+        "need new audio interface, the focusrite is dying. order the scarlett 18i20?",
+        "booking a venue for the beat workshop - need space for 15-20 kids with power outlets for laptops"
+      ],
+      "email": "tj.jackson@gmail.com",
+      "phone": "(718) 555-4821"
+    },
+    {
+      "id": "persona_036",
+      "name": "Tom Kowalski",
+      "age": 51,
+      "hometown": "Buffalo, NY",
+      "occupation": "Public works supervisor",
+      "bio": "Tom Kowalski manages the city's winter road maintenance crew, coordinating snow plows, salt trucks, and de-icing operations. He's been doing this for 20 years and knows every street in Buffalo. He monitors weather forecasts obsessively from November through March and keeps his crew on standby whenever snow is in the forecast.",
+      "use_cases": [],
+      "sample_messages": [
+        "Storm coming in tonight. All hands on deck - activating the full crew rotation starting 8pm",
+        "Salt supply running low after that last storm. Need to order 50 tons ASAP from the usual supplier",
+        "Equipment maintenance scheduled for next week: 6 trucks need inspection before the next system rolls through"
+      ],
+      "email": "tom.kowalski@buffalony.gov",
+      "phone": "(716) 555-3928"
+    },
+    {
+      "id": "persona_037",
+      "name": "Dr. Vanessa Martinez",
+      "age": 44,
+      "hometown": "Sacramento, CA",
+      "occupation": "Education policy director",
+      "bio": "Vanessa Martinez directs a nonprofit focused on improving public education in California. She researches effective teaching practices, advocates for education funding, and consults with school districts on technology integration. She testifies at state legislature hearings and writes policy briefs that actually get read.",
+      "use_cases": [],
+      "sample_messages": [
+        "Legislative hearing on ed tech next Tuesday - can you prep talking points and schedule prep call with our team?",
+        "Need research: what states have successful 1:1 device programs? Looking for models to propose here",
+        "Superintendent meeting in fresno thursday - book me on an early flight so i can prep with them before the board meeting"
+      ],
+      "email": "vanessa.martinez@caedpolicy.org",
+      "phone": "(916) 555-7142"
+    },
+    {
+      "id": "persona_038",
+      "name": "Prof. Andrea Morrison",
+      "age": 56,
+      "hometown": "Birmingham, AL",
+      "occupation": "Law professor",
+      "bio": "Andrea Morrison teaches criminal law and legal ethics at the University of Alabama School of Law. She's written extensively about race in the justice system and uses classic cases like To Kill a Mockingbird to teach students about bias in trials. She also supervises the school's innocence project clinic.",
+      "use_cases": [],
+      "sample_messages": [
+        "Innocence project case review Monday 4pm - need the conference room with the big screen for evidence photos",
+        "Guest speaker for my crim law class? Looking for a defense attorney who's handled jury bias issues",
+        "Conference panel in Atlanta next month - need flight Friday morning, returning Sunday evening"
+      ],
+      "email": "andrea.morrison@law.ua.edu",
+      "phone": "(205) 555-8264"
+    },
+    {
+      "id": "persona_039",
+      "name": "Kevin O'Brien",
+      "age": 40,
+      "hometown": "Boston, MA",
+      "occupation": "Economic policy analyst",
+      "bio": "Kevin O'Brien works for a Boston think tank analyzing fiscal and monetary policy. He writes reports on tax policy, labor markets, and economic growth strategies, and his work gets cited by congressional staffers and journalists. He has strong opinions about which economic theories actually work in practice.",
+      "use_cases": [],
+      "sample_messages": [
+        "Working on the labor market report - need the latest BLS data pulled and formatted for the appendix",
+        "Panel discussion at brookings next month, need train tickets to DC and hotel for 2 nights",
+        "Can you track down that CBO report from 2019 on supply-side reforms? Need it for the lit review"
+      ],
+      "email": "kevin.obrien@bostonecon.org",
+      "phone": "(617) 555-4937"
+    },
+    {
+      "id": "persona_040",
+      "name": "Rebecca Torres",
+      "age": 35,
+      "hometown": "Portland, ME",
+      "occupation": "Middle school science teacher",
+      "bio": "Rebecca Torres teaches 7th and 8th grade science at a middle school in Portland. She takes her students on nature walks, runs after-school science club, and designs hands-on experiments that get kids excited about how things work. She's always looking for new ways to make abstract concepts tangible and relevant to her students' lives.",
+      "use_cases": [],
+      "sample_messages": [
+        "Looking for tide pool field trip options near Portland - need something appropriate for 30 seventh graders",
+        "Science fair is coming up! Can you order lab supplies? Got a list of what we need for 25 projects",
+        "Trying to find guest speakers who work in STEM fields - anyone available to talk to middle schoolers about their job?"
+      ],
+      "email": "rebecca.torres@portlandschools.org",
+      "phone": "(207) 555-3814"
+    },
+    {
+      "id": "persona_041",
+      "name": "Brian Kowalczyk",
+      "age": 29,
+      "hometown": "Flagstaff, AZ",
+      "occupation": "Observatory technician",
+      "bio": "Brian Kowalczyk maintains telescopes and equipment at an observatory near Flagstaff. He also gives public tours on weekends, explaining what astronomers are discovering about exoplanets, black holes, and the early universe. He spends his clear nights taking astrophotography and his cloudy nights processing images and reading arxiv papers.",
+      "use_cases": [],
+      "sample_messages": [
+        "telescope #3 needs mirror realignment before the observation run next week - scheduling maintenance",
+        "public lecture next saturday on exoplanets, expecting 50+ people. can you reserve the auditorium?",
+        "trying to get that new ccd camera working... ordering replacement cables model XLR-2240"
+      ],
+      "email": "brian.kowalczyk@example.com",
+      "phone": "(928) 555-7293"
+    },
+    {
+      "id": "persona_042",
+      "name": "Sarah Chen",
+      "age": 33,
+      "hometown": "Seattle, WA",
+      "occupation": "Nonprofit program director",
+      "bio": "Sarah Chen runs youth mentorship programs for an education nonprofit in Seattle. She recruits mentors, trains volunteers, matches them with students, and tracks outcomes to show what's working. She writes grant proposals constantly and is always looking for new funding sources to expand the program.",
+      "use_cases": [],
+      "sample_messages": [
+        "Grant deadline Friday - can you proofread the narrative section and make sure the budget adds up?",
+        "Volunteer training next Saturday 9am-3pm. Need to book the community center and order lunch for 40 people",
+        "Following up with the Gates Foundation contact - can you pull our impact data from last year?"
+      ],
+      "email": "sarah.chen@example.com",
+      "phone": "(206) 555-4816"
+    },
+    {
+      "id": "persona_043",
+      "name": "Dr. Miguel Santos",
+      "age": 41,
+      "hometown": "Monterey, CA",
+      "occupation": "Marine ecologist",
+      "bio": "Miguel Santos studies how climate change affects coastal ecosystems in California. He leads research dives, analyzes kelp forest health data, and publishes findings that inform marine conservation policy. He works with a team of graduate students and splits his time between fieldwork and lab analysis.",
+      "use_cases": [],
+      "sample_messages": [
+        "Dive survey scheduled for Tuesday weather permitting - boat rental confirmed, crew of 4",
+        "Data from this quarter shows significant kelp decline. Can you pull comparison data from 2020-2022?",
+        "Conference presentation in San Diego next month - need flights and hotel, arriving day before to prep"
+      ],
+      "email": "miguel.santos@example.com",
+      "phone": "(831) 555-2947"
+    },
+    {
+      "id": "persona_044",
+      "name": "Aisha Patel",
+      "age": 26,
+      "hometown": "Cambridge, MA",
+      "occupation": "Museum educator",
+      "bio": "Aisha Patel develops interactive exhibits at a science museum in Cambridge, focusing on technology and innovation history. She creates hands-on demonstrations, writes exhibit text, and trains docents. She loves finding ways to show how historical innovations connect to modern technology that visitors use every day.",
+      "use_cases": [],
+      "sample_messages": [
+        "working on the computing history exhibit - need to source a working apple II or similar for the demo",
+        "docent training materials need updating for the new AI exhibit. can you schedule a team meeting?",
+        "field trip to the computer history museum in CA - book flights and hotel for 3 nights in may"
+      ],
+      "email": "aisha.patel@example.com",
+      "phone": "(617) 555-8142"
+    },
+    {
+      "id": "persona_045",
+      "name": "Jordan Reeves",
+      "age": 32,
+      "hometown": "Asheville, NC",
+      "occupation": "High school English teacher",
+      "bio": "Jordan Reeves teaches English at an Asheville public high school and sponsors the GSA club. They create an inclusive classroom where students feel safe discussing difficult topics through literature. They assign diverse authors, lead discussions on identity and representation, and serve as a mentor for LGBTQ+ students navigating high school.",
+      "use_cases": [],
+      "sample_messages": [
+        "GSA meeting thursday after school - can you reserve room 214 and order pizza for ~15 kids?",
+        "Updating my reading list to include more diverse voices - looking for YA books with trans protagonists",
+        "Professional development workshop on inclusive pedagogy next month - need sub coverage for friday"
+      ],
+      "email": "jordan.reeves@example.com",
+      "phone": "(828) 555-6741"
+    },
+    {
+      "id": "persona_046",
+      "name": "Dr. Jennifer Walsh",
+      "age": 39,
+      "hometown": "Philadelphia, PA",
+      "occupation": "Business ethics researcher",
+      "bio": "Jennifer Walsh researches corporate social responsibility at the Wharton School, focusing on how pharmaceutical companies balance profit with public health goals. She publishes case studies, teaches MBA students, and consults with companies trying to improve their ethical practices. She's always juggling research deadlines, teaching prep, and conference travel.",
+      "use_cases": [],
+      "sample_messages": [
+        "Case study draft due Friday - can you pull the latest pharma industry CSR reports?",
+        "Conference in Chicago next week. Book flight Tuesday AM, return Thursday PM",
+        "Student presentations tomorrow 2-5pm - need to reserve the seminar room with the projector"
+      ],
+      "email": "jennifer.walsh@example.com",
+      "phone": "(215) 555-8392"
+    },
+    {
+      "id": "persona_047",
+      "name": "Ms. Danielle Kim",
+      "age": 28,
+      "hometown": "Houston, TX",
+      "occupation": "Elementary school teacher",
+      "bio": "Danielle Kim teaches third grade and loves doing space-themed units that get her students excited about science. She decorates her classroom with planets, does constellation activities, and invites NASA employees to speak via video call. She's always looking for new hands-on projects that make learning fun.",
+      "use_cases": [],
+      "sample_messages": [
+        "Space unit starting next month!! need to order solar system models and glow-in-the-dark stars",
+        "any astronauts or nasa engineers available for a zoom call with 8 year olds? they'd LOVE it",
+        "looking for planetarium field trip options near houston - something good for 3rd graders"
+      ],
+      "email": "danielle.kim@example.com",
+      "phone": "(713) 555-2847"
+    },
+    {
+      "id": "persona_048",
+      "name": "Richard Lawson",
+      "age": 52,
+      "hometown": "Atlanta, GA",
+      "occupation": "Manufacturing company CEO",
+      "bio": "Richard Lawson runs a mid-sized manufacturing company that makes automotive parts. He focuses on operational efficiency, managing the leadership team, and keeping up with industry trends. He travels to visit plant locations, meets with major clients, and presents quarterly results to the board.",
+      "use_cases": [],
+      "sample_messages": [
+        "Board meeting prep - need updated Q3 financials and production metrics by end of day",
+        "Visiting the Tennessee plant next Tuesday. Schedule meetings with ops manager and floor supervisors",
+        "Client dinner with Ford reps Wednesday evening - need reservation, somewhere upscale but not too loud"
+      ],
+      "email": "richard.lawson@example.com",
+      "phone": "(404) 555-6173"
+    },
+    {
+      "id": "persona_049",
+      "name": "Maria Gonzalez",
+      "age": 34,
+      "hometown": "Miami, FL",
+      "occupation": "ESL teacher",
+      "bio": "Maria Gonzalez teaches English to adult immigrants in Miami, helping them improve language skills for work and daily life. She plans interactive lessons, assigns practical homework, and connects students with community resources. Many of her students are juggling jobs and families while learning English.",
+      "use_cases": [],
+      "sample_messages": [
+        "Class on Thursday - can you print 20 copies of the job interview worksheet?",
+        "Looking for conversational English practice resources, preferably free or low-cost for students",
+        "Workshop on teaching pronunciation next month - can you check if there's professional development funding available?"
+      ],
+      "email": "maria.gonzalez@example.com",
+      "phone": "(305) 555-4918"
+    },
+    {
+      "id": "persona_050",
+      "name": "Steven Park",
+      "age": 45,
+      "hometown": "Richmond, VA",
+      "occupation": "City council member",
+      "bio": "Steven Park serves on Richmond's city council, focusing on housing policy and historic preservation. He attends community meetings, reviews development proposals, and tries to balance growth with preserving neighborhood character. He's constantly fielding calls from constituents and preparing for council votes.",
+      "use_cases": [],
+      "sample_messages": [
+        "Town hall next Thursday 7pm - need to book the community center and send notices to residents",
+        "Can you pull the zoning variance requests for next week's meeting? Need to review before the vote",
+        "Meeting with the developers Monday at 3. Get me the latest traffic study for that site"
+      ],
+      "email": "steven.park@example.com",
+      "phone": "(804) 555-7294"
+    },
+    {
+      "id": "persona_051",
+      "name": "Dr. Emily Novak",
+      "age": 37,
+      "hometown": "Bloomington, IN",
+      "occupation": "Linguistics professor",
+      "bio": "Emily Novak teaches linguistics at Indiana University, specializing in syntax and English grammar. She researches how speakers use language in different contexts, publishes in academic journals, and presents at conferences. She also runs the university's writing center and trains tutors in grammatical analysis.",
+      "use_cases": [],
+      "sample_messages": [
+        "Prepping syntax lecture for tuesday - can you find good examples of relative clause ambiguity?",
+        "Conference paper deadline friday. Proofreading the final draft tonight, need fresh eyes tomorrow morning?",
+        "Writing center training session next week - order snacks for 15 tutors, 2-hour session"
+      ],
+      "email": "emily.novak@example.com",
+      "phone": "(812) 555-3847"
+    },
+    {
+      "id": "persona_052",
+      "name": "Carlos Mendez",
+      "age": 30,
+      "hometown": "San Antonio, TX",
+      "occupation": "High school Spanish teacher",
+      "bio": "Carlos Mendez teaches Spanish and Latin American culture at a San Antonio high school. He organizes cultural events, plans study abroad info sessions, and incorporates art and music into his curriculum. He's passionate about making language learning relevant and helping students connect with their heritage or explore new cultures.",
+      "use_cases": [],
+      "sample_messages": [
+        "dia de los muertos celebration next week - ordering supplies for the ofrenda project",
+        "study abroad fair coming up - can you get info packets from the exchange programs?",
+        "looking for latin american films with subtitles, appropriate for high schoolers. any recommendations?"
+      ],
+      "email": "carlos.mendez@example.com",
+      "phone": "(210) 555-6281"
+    },
+    {
+      "id": "persona_053",
+      "name": "Maya Thompson",
+      "age": 33,
+      "hometown": "Oakland, CA",
+      "occupation": "Civil rights attorney",
+      "bio": "Maya Thompson works for a nonprofit legal organization defending voting rights and challenging discriminatory policies. She litigates cases, files amicus briefs, and testifies at legislative hearings. Her work is high-stakes and deadline-driven, and she's constantly traveling for court appearances and community meetings.",
+      "use_cases": [],
+      "sample_messages": [
+        "Hearing in federal court next Wednesday. Need to finalize the brief and file by Monday at 5pm sharp",
+        "Community meeting tonight about the voter ID law - can you send the presentation slides to my phone?",
+        "Flying to DC for oral arguments next week. Book Tuesday early AM flight, returning Thursday"
+      ],
+      "email": "maya.thompson@example.com",
+      "phone": "(510) 555-7293"
+    },
+    {
+      "id": "persona_054",
+      "name": "James Mitchell",
+      "age": 48,
+      "hometown": "Washington, DC",
+      "occupation": "International education consultant",
+      "bio": "James Mitchell advises universities and NGOs on international education programs. He helps design study abroad curricula, trains teachers, and evaluates program effectiveness. He splits his time between DC-based consulting work and international travel to partner institutions.",
+      "use_cases": [],
+      "sample_messages": [
+        "Client proposal due Friday - need impact data from the Ghana program and budget projections",
+        "Training workshop in Nairobi next month - book flights and hotel, arriving 2 days early for site visits",
+        "Video call with university partners Wednesday 9am their time (3am here!) - send calendar invite"
+      ],
+      "email": "james.mitchell@example.com",
+      "phone": "(202) 555-8146"
+    },
+    {
+      "id": "persona_055",
+      "name": "Dr. William Harper",
+      "age": 59,
+      "hometown": "New Haven, CT",
+      "occupation": "Medieval history professor",
+      "bio": "William Harper teaches medieval European history at Yale, focusing on trade networks, urban development, and daily life in medieval cities. He's published books on medieval commerce, leads student research projects, and occasionally consults for museums on historical accuracy. He's known for making medieval life feel relevant to modern students.",
+      "use_cases": [],
+      "sample_messages": [
+        "Graduate seminar needs primary sources - ordering English translations of medieval merchant records",
+        "Museum consulting project in NYC next week - need hotel near the Met, two nights",
+        "Book manuscript edits due to the publisher end of month. Blocking out next week to finish revisions"
+      ],
+      "email": "william.harper@example.com",
+      "phone": "(203) 555-7184"
+    }
+  ]
+}
