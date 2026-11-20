@@ -362,6 +362,14 @@ MADS/
 
 ---
 
+## Acknowledgments
+
+This work was carried out as an academic collaboration between the **University of California, Santa Cruz (UCSC)** and **Uniphore**.
+
+We are grateful to the UCSC authors **Adam Zernik**, **Ishika Kulkarni**, **Mudit Arora**, and **Hugo Lin** for their contributions to this work.
+
+---
+
 ## Citation
 
 If you use MADS or MADS-Bench in your research, please cite:
